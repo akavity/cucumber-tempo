@@ -26,6 +26,7 @@ public class LoginPage {
     public SelenideElement getSubmitAccountButton() {
         return submitAccountButton;
     }
+
     public SelenideElement getUserAccountError() {
         return accountNotificationError;
     }

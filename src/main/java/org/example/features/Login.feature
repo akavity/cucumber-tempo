@@ -1,5 +1,6 @@
 Feature: Login feature
 
+  @SmokeTest
   Scenario Outline: UnSuccessful login
     Given I open page "<page>"
     When I enter the email "<email>" and the password "<password>"
